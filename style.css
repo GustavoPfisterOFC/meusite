@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+:root{
+    --cor1:#ff0097;
+    --cor2:#ff2AA8;
+    --cor3:#FF55BA;
+    --cor4:#FF80CB;
+    --cor5:#FFAADC;
+    --cor6:#FFD5EE;
+}
+#principal{
+    background-color: var(--cor3);
+    padding: 0.9px;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+body{
+    background-image: linear-gradient(to right,var(--cor1),var(--cor2) );
+    
+}
+header{
+    background-color:var(--cor4) ;
+    padding: 1px;
+
+    
+}
+header > h1{
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header > h2{
+    font-family: "Playwrite DK Uloopet", cursive;
+    color: var(--cor6);
+    text-align: center;
+}
+#topo > img{
+    width: 250px;
+    border-radius: 85px;
+    margin: auto;
+    box-shadow: 1px 1px 1px #ffaadc77;
+}
+nav{
+    background-image:linear-gradient(to right,var(--cor1), var(--cor2) );
+    box-shadow: 1px 1px 1px #0000005e;
+    padding: 15px;
+}
+nav > a{
+    text-decoration: none;
+    color: var(--cor6);
+    font-weight: bold;
+    margin-right: 20px;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: var(--cor6);
+    color: var(--cor1);
+   
+
+}
+h1{
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-size: 30px;
+    text-align: center;
+    color: var(--cor6);
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.562);
+} 
+#assunto{
+    padding: 20px;
+}
+#assunto > h2{
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-size: 25px;
+    text-align: center;
+    color: var(--cor6);
+}
+h3{
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    color: var(--cor1);
+    background-color: var(--cor6);
+}
+p{
+    text-align: justify;
+    font-family: "Chivo Mono", monospace;
+    font-style: normal;
+    font-size: 18px;
+    color: #000000;
+}
+#perfumaria > p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+article{
+    margin: 10px;
+    border-radius: 8px;
+    
+    
+}
+article > p{
+    color: var(--cor6);
+    text-indent: 20px;
+}
+abbr{
+    text-decoration: none;
+    font-style:"Chivo Mono";
+}
+footer >p{
+    text-align: center;
+    color: var(--cor1);}
+footer{
+    background-color: var(--cor6);
+    padding: 1px;
+}
+#rodape{
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    text-indent: 50px;
+}
