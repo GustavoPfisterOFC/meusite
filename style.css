@@ -29,13 +29,13 @@ body{
     
 }
 header{
-    background-color:var(--cor4) ;
+    background-image: url(imagens-logo/borboletas.jpg);
     padding: 1px;
 
     
 }
 header > h1{
-
+    color: var(--cor1);
   margin-top: 20px;
   margin-bottom: 20px;
 }
