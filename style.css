@@ -53,6 +53,29 @@ header > h2{
 #topo > img{
     width: 250px;   
 }
+#insta{
+    width: 150px;
+    position: static;
+    transform: translate(39%,-129%);
+}
+#icone{
+    color: white;
+}
+#fotoinsta{
+    width: 20px;
+}
+#linktopo{
+    text-decoration:none;
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    background-color: var(--cor4);
+}
+#linktopo:hover{
+    background-color: var(--cor6);
+    color: var(--cor1);
+    text-decoration: underline;
+}
 nav{
     background-image:linear-gradient(to right,var(--cor1), var(--cor2) );
     box-shadow: 1px 1px 1px #0000005e;
