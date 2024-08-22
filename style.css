@@ -185,3 +185,6 @@ footer{
     background-image: linear-gradient(to right, var(--cor1), var(--cor2));
     text-indent: 50px;
 }
+@media screen {
+    
+}
