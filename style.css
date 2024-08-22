@@ -22,7 +22,8 @@
     margin: auto;
     border-radius: 0px 0px 15px 15px;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1000px; 
+    
 }
 body{
     background-image: linear-gradient(to right,var(--cor1),var(--cor2) );
@@ -76,22 +77,44 @@ header > h2{
     color: var(--cor1);
     text-decoration: underline;
 }
+#burguer{
+    color: var(--cor6);
+    background-color: var(--cor1);
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+#burguer:hover{
+    cursor: pointer;
+    background-color: var(--cor6);
+    color: var(--cor1);
+    transform: translate(5px,5px);
+    box-shadow: 2px 2px 5px var(--cor2);
+    transition: 1s;
+}
 nav{
+    display: none;
     background-image:linear-gradient(to right,var(--cor1), var(--cor2) );
     box-shadow: 1px 1px 1px #0000005e;
     padding: 15px;
 }
-nav > a{
+ul > li{
+    display: block;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
+li > a{
+    display: block;
     text-decoration: none;
     color: var(--cor6);
     font-weight: bold;
-    margin-right: 20px;
     background-color: var(--cor4);
     padding: 10px;
     border-radius: 5px;
     transition-duration: 1s;
 }
-nav > a:hover{
+li > a:hover{
     text-decoration: underline;
     background-color: var(--cor6);
     color: var(--cor1);
