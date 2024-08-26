@@ -179,7 +179,7 @@ article > p{
     justify-content: flex-start baseline;
 }
 .produto1{
-    margin: 30px;
+    margin: 2px;
     border: 1px solid var(--cor6);
     padding: 20px;
     text-align: center;
