@@ -198,7 +198,11 @@ article > p{
     width: 120px;
     height: 120px;
     border-radius: 6px;
-    border: 1px solid var(--cor6);
+}
+.produto1 > img:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: 2px 2px 10px var(--cor6);
+    transition: 1s;
 }
 .produto1 > p{
     text-align: center;
