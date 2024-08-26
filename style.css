@@ -97,6 +97,7 @@ nav{
     background-image:linear-gradient(to right,var(--cor1), var(--cor2) );
     box-shadow: 1px 1px 1px #0000005e;
     padding: 15px;
+   
 }
 ul > li{
     display: block;
@@ -170,6 +171,13 @@ article > p{
     color: var(--cor6);
     text-indent: 20px;
 }
+.produtos{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start baseline;
+}
+
 abbr{
     text-decoration: none;
     font-style:"Chivo Mono";
@@ -184,7 +192,4 @@ footer{
 #rodape{
     background-image: linear-gradient(to right, var(--cor1), var(--cor2));
     text-indent: 50px;
-}
-@media screen {
-    
 }
