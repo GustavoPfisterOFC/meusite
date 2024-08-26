@@ -180,14 +180,23 @@ article > p{
 }
 .produto1{
     margin: 2px;
-    border: 1px solid var(--cor6);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    border-radius: 5px;
+    background-color: var(--cor1);
 }
-
+.produto1 > h2{
+    margin-top:1%;
+    color: var(--cor6);
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-size: 16px;
+}
 .produto1 > img{
-    width: 150px;
-    height: 200px;
+    margin-top: 13%;
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+    border: 1px solid var(--cor6);
 }
 .produto1 > p{
     text-align: center;
@@ -197,19 +206,20 @@ article > p{
     margin: 1.5px;
 }
 .btn{
-    width: 150px;
-    height: 30px;
+    width: 160px;
+    height: 50px;
     border: none;
+    border-radius: 5px;
     margin-top: 10px;
-    background-color: #ff0097;
-    color: #FFAADC;
+    background-color: var(--cor6);
+    color: var(--cor1);
     text-align: center;
 }
 .btn:hover{
     cursor: pointer;
-    box-shadow:  2px 2px 5px var(--cor1);
-    background-color: var(--cor6);
-    color: var(--cor1);
+    box-shadow: inset  2px 2px 5px var(--cor6);
+    background-color: var(--cor1);
+    color: var(--cor6);
     transform: translate(-2px,-2px);
     transition: 1s;
 }
