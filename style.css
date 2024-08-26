@@ -213,7 +213,6 @@ article > p{
     transform: translate(-2px,-2px);
     transition: 1s;
 }
-
 abbr{
     text-decoration: none;
     font-style:"Chivo Mono";
