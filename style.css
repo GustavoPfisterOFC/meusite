@@ -178,8 +178,40 @@ article > p{
     flex-wrap: wrap;
     justify-content: flex-start baseline;
 }
-.produto{
+.produto1{
+    margin: 30px;
+    border: 1px solid var(--cor6);
+    padding: 20px;
+    text-align: center;
+}
+
+.produto1 > img{
+    width: 150px;
+    height: 200px;
+}
+.produto1 > p{
+    text-align: center;
+    color: var(--cor6);
+}
+.produto2{
     margin: 1.5px;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    background-color: #ff0097;
+    color: #FFAADC;
+    text-align: center;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow:  2px 2px 5px var(--cor1);
+    background-color: var(--cor6);
+    color: var(--cor1);
+    transform: translate(-2px,-2px);
+    transition: 1s;
 }
 
 abbr{
