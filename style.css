@@ -172,10 +172,14 @@ article > p{
     text-indent: 20px;
 }
 .produtos{
+
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start baseline;
+}
+.produto{
+    margin: 1.5px;
 }
 
 abbr{
