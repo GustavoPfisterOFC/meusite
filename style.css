@@ -176,7 +176,7 @@ article > p{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start baseline;
+    justify-content: center;
 }
 .produto1{
     margin: 2px;
